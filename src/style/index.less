@@ -1,0 +1,98 @@
+@import "~antd/dist/antd.css";
+
+.App {
+  width: 100%;
+  height: 100vh;
+
+  .login {
+    width: 100%;
+    height: 100%;
+    background-color: #adbaec;
+    position: relative;
+
+    .ant-form {
+      border: 1px solid #ccc;
+      background-color: #fff;
+      border-radius: 24px;
+
+      padding-top: 80px;
+      padding-right: 80px;
+      width: 500px;
+      position: absolute;
+      top: 150px;
+      left: calc(50% - 250px);
+      padding-bottom: 40px;
+
+      .title {
+        color: #3159F5;
+        font-size: 40px;
+        text-align: center;
+        padding-left: 80px;
+        padding-bottom: 50px;
+
+      }
+    }
+  }
+
+  .main {
+    //主界面
+    width: 100%;
+    height: 100%;
+
+    .ant-layout {
+      height: auto;
+
+      .ant-layout-header {
+        background-color: #cedbd4;
+        font-size: 32px;
+      }
+
+      .left_logo {
+        height: 100%;
+        margin-top: -10px;
+        margin-right: 40px;
+      }
+
+      .headimg {
+        height: 90%;
+        border: 3px solid #fff;
+        margin-top: 2px;
+        border-radius: 50%;
+        float: right;
+      }
+    }
+
+    #components-layout-demo-top-side .logo {
+      float: left;
+      width: 120px;
+      height: 31px;
+      margin: 16px 24px 16px 0;
+
+    }
+
+    .ant-row-rtl #components-layout-demo-top-side .logo {
+      float: right;
+      margin: 16px 0 16px 24px;
+    }
+
+    .site-layout-background {
+      background: #fff;
+
+    }
+
+    .seedata {
+      padding-left: 120px;
+      .ant-table-wrapper{
+        max-width: 70%;
+      }
+      .ant-table-pagination.ant-pagination{
+        display: none;
+      }
+    /*  .ant-table-thead > tr > th{
+       width: 40%;
+     } */
+     
+
+    }
+  }
+}
